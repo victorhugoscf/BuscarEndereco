@@ -1,0 +1,26 @@
+    @media screen and (max-width:760px) {
+        header {
+            font-size: 14px;
+        }
+        #titulo {
+            font-size: 8px;
+            line-height: 15px;
+        }
+
+    #pesquisar{
+
+        font-size: 14px;
+    height: 55px;
+    line-height: 55px;
+    width: 150px;
+
+    }
+
+    section input{
+
+        font-size: 14px;
+        height: 40px;
+        width: 150px;
+        
+    }
+    }

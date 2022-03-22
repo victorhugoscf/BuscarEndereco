@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto correios</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <header>
+        </div>
+        <ul>
+            <a href="#" id="rastrear" onclick="rastrear()">
+                <li>Rastrear</li>
+            </a>
+            <a href="#" id="buscar" >
+                <li>Buscar endereço</li>
+            </a>
+            <a href="#" id="calc" onclick="calc()">
+                <li>Calcular frete</li>
+            </a>
+            <a id="contato" href="https://github.com/victorhugoscf">
+             <li>Contato</li> </a>
+        </ul>
+        
+    </header>
+    <nav>
+        <div id="textocorpo">
+           <h1>Buscar endereço por CEP </h1>
+        </div>
+    </nav>
+            <section class="section-address" >
+            
+            <div id="input">
+            <input type="text" value="Digite o CEP:"  id="cep" onfocus="this.value='';" required><br>
+            <input type="text"  id="endereco" value="Rua:" readonly required><br>
+            <input type="text" id="bairro" value="Bairro:" readonly required><br>
+            <input type="text" id="cidade" value="Cidade:" readonly required><br>
+            <input type="text" id="estado" value="Estado:" readonly required><br>
+            <input type="button" onclick="pesquisar()" value="Pesquisar >" id="pesquisar">
+
+            </section>
+    <footer id="rodape">
+        <a href="https://github.com/victorhugoscf"> <li>  Desenvolvido por Victor S. Costa</li></a> 
+    </footer>
+</body>
+</html>
